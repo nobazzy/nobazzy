@@ -3,9 +3,6 @@
 # ⚡ Alex (nobazzy)
 ### **AI Engineer & SaaS Developer | Automation & Intelligence Systems**
 
-[![GitHub Followers](https://img.shields.io/github/followers/nobazzy?label=Followers&style=for-the-badge&color=00f2fe&logo=github)](https://github.com/nobazzy)
-[![Repros](https://img.shields.io/github/repositories/nobazzy?label=Repositories&style=for-the-badge&color=7f00ff)](https://github.com/nobazzy?tab=repositories)
-
 ---
 
 ```text
