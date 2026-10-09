@@ -59,7 +59,7 @@ Minha abordagem de engenharia foca em sistemas autônomos e resilientes onde **a
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">📱 <a href="https://github.com/nobazzy/IA_Atendimento_Inteligente_whatsapp">Central WhatsApp AI Multiprovedor</a></h3>
+      <h3 align="center">📱 <a href=""></a></h3>
       <p align="center">
         <b>Motor Conversacional de Alta Resiliência</b><br>
         Plataforma para automação no WhatsApp com suporte a múltiplos provedores (OpenAI, Claude, Gemini, DeepSeek, Groq), fila serial anti-trava, isolamento de sessão e painel administrativo.
