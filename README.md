@@ -1,93 +1,117 @@
 <div align="center">
 
-# ⚡ Alexsandro (nobazzy)
-### **Engenheiro de Backend & Sistemas de IA | Infraestrutura & Automação Autônoma**
+# Alexsandro Vasconcelos
+**Software Engineer | Backend Systems, Autonomous Pipelines & AI Engineering**  
+São Paulo, Brazil
+
+[![GitHub](https://img.shields.io/badge/GitHub-nobazzy-181717?style=flat-square&logo=github)](https://github.com/nobazzy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexsandro_Vasconcelos-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/alexsandro-vasconcelos)
+[![Email](https://img.shields.io/badge/Email-vasconcelosubazzy@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:vasconcelosubazzy@gmail.com)
 
 ```text
-"Construindo sistemas onde a IA atua como piloto, a política local é a autoridade máxima e a telemetria fecha o loop de recuperação."
+"Engineering autonomous architectures where AI proposes actions, deterministic policies enforce invariants, and continuous telemetry closes the loop."
 ```
-
-[![GitHub](https://img.shields.io/badge/GitHub-nobazzy-181717?style=for-the-badge&logo=github)](https://github.com/nobazzy)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nobazzy-0A66C2?style=for-the-badge&logo=linkedin)](https://github.com/nobazzy)
 
 </div>
 
 ---
 
-## 🧠 Filosofia de Arquitetura & Sistemas
+## Architecture Philosophy
 
-Minha abordagem de engenharia foca em sistemas autônomos e resilientes onde **a inteligência artificial propõe ações sob a supervisão estrita de políticas determinísticas locais**.
+My engineering approach prioritizes deterministic resilience in automated and distributed systems: **machine learning models provide reasoning and intent, while local policies and safety guardrails hold absolute operational authority**.
 
 ```
 ┌───────────────────┐     ┌──────────────────────┐     ┌────────────────────────┐     ┌────────────────────────┐
-│ Telemetria/Estado │ ──> │   IA (Piloto/Racioc.) │ ──> │   Política Local (Leis) │ ──> │ Execução & Guardrails  │
+│ State / Telemetry │ ──> │ AI Inference Engine  │ ──> │ Local Policy & Safety  │ ──> │ Execution & Guardrails │
 └───────────────────┘     └──────────────────────┘     └────────────────────────┘     └────────────────────────┘
           ▲                                                                                                │
-          └─────────────────────────── Loop de Feedback & Auto-Recuperação ────────────────────────────────┘
+          └────────────────────────── Continuous Feedback & Self-Healing Loop ─────────────────────────────┘
 ```
 
-- 🛡️ **Autoridade Determinística**: Modelos de IA geram intenções; a política local valida restrições rígidas, segurança e alocação de hardware antes da execução.
-- 🔄 **Auto-Recuperação (Self-Healing)**: Monitoramento ativo via telemetria contínua com detecção de anomalias e restauração de estado.
-- ⚡ **Governança de Recursos**: Otimização dinâmica dos limites de hardware (VRAM, RAM, CPU) sob cargas intensas e concorrentes.
+- **Deterministic Invariants**: AI models propose structured actions; local deterministic policies strictly validate safety, resource allocation, and hardware limits prior to execution.
+- **Autonomous Self-Healing**: Continuous telemetry monitoring with anomaly detection, automated rollback mechanisms, and persistent state machines.
+- **Hardware-Aware Orchestration**: Real-time management of compute, VRAM, and RAM utilization during intensive concurrent workloads.
 
 ---
 
-## 🔥 Projetos em Destaque
+## Featured Engineering Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🧠 <a href="https://github.com/nobazzy/mem-llm-orchestrator">MEM — LLM Orchestrator</a></h3>
-      <p align="center">
-        <b>Orquestração e Governança de LLMs</b><br>
-        Sistema de gerenciamento para treinamento e execução de LLMs com IA como piloto, política local de segurança, controle de recursos e mecanismos de recuperação autônoma contra falhas.
+      <h3><a href="https://github.com/nobazzy/viral-shorts-autopilot">Autonomous Video Production Engine</a></h3>
+      <p>
+        <b>End-to-End Media Pipeline & Multi-Platform Publisher</b><br>
+        Autonomous video production architecture coordinating local LLMs (Ollama Qwen 2.5), neural speech synthesis (Edge-TTS), millisecond word alignment (Faster-Whisper), and NVENC GPU video compositing via FFmpeg. Includes automated publishing daemons for YouTube Shorts and TikTok Studio.
       </p>
-      <p align="center">
-        <code>Python</code> • <code>LLM Engine</code> • <code>Telemetria</code> • <code>State Machine</code>
+      <p>
+        <code>Python</code> • <code>FastAPI</code> • <code>FFmpeg NVENC</code> • <code>Ollama</code> • <code>Playwright</code> • <code>Whisper</code>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">⚡ <a href="https://github.com/nobazzy/orquestra-resource-orchestrator">Orquestra — Resource Manager</a></h3>
-      <p align="center">
-        <b>Gerenciamento Autônomo de Recursos no Windows</b><br>
-        Governador em tempo real que utiliza telemetria contínua, IA e políticas locais adaptativas para administrar e otimizar VRAM/RAM durante diferentes workloads.
+      <h3><a href="https://github.com/nobazzy/mem-llm-orchestrator">MEM — LLM Orchestrator</a></h3>
+      <p>
+        <b>Hardware-Aware Local LLM Governance & Lifecycle Engine</b><br>
+        Fault-tolerant orchestration system for local model training and execution. Enforces deterministic hardware boundaries, dynamic lane configuration, continuous telemetry, and self-healing recovery against memory exhaustion.
       </p>
-      <p align="center">
-        <code>Python</code> • <code>Win32 API</code> • <code>Gestão de VRAM/RAM</code> • <code>Políticas Locais</code>
+      <p>
+        <code>Python</code> • <code>State Machines</code> • <code>Telemetry</code> • <code>Hardware Governance</code>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">📱 <a href=""></a></h3>
-      <p align="center">
-        <b>Motor Conversacional de Alta Resiliência</b><br>
-        Plataforma para automação no WhatsApp com suporte a múltiplos provedores (OpenAI, Claude, Gemini, DeepSeek, Groq), fila serial anti-trava, isolamento de sessão e painel administrativo.
+      <h3><a href="https://github.com/nobazzy/internship-bot">Internship Application Engine</a></h3>
+      <p>
+        <b>Multi-Platform Scraping & Automated Application Pipeline</b><br>
+        Recruitment automation engine targeting LinkedIn Easy Apply, Gupy, and regional portals. Features humanized timing patterns, SQLite deduplication and state tracking, configurable YAML profiles, and automated SMTP notifications.
       </p>
-      <p align="center">
-        <code>TypeScript</code> • <code>Node.js</code> • <code>Prisma</code> • <code>Redis</code> • <code>Multi-LLM</code>
+      <p>
+        <code>Python</code> • <code>Selenium</code> • <code>SQLite3</code> • <code>BeautifulSoup</code> • <code>PyYAML</code>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🔒 <a href="https://github.com/nobazzy/secret-exposure-detector">Secret Exposure Detector</a></h3>
-      <p align="center">
-        <b>DevSecOps & Prevenção de Vazamento de Segredos</b><br>
-        Scanner estático e analisador de entropia para pipelines de CI/CD e Git hooks, identificando credenciais expostas e assegurando arquitetura zero-leak antes do commit.
+      <h3><a href="https://github.com/nobazzy/ai-clip-maker">AI Clip Maker Local</a></h3>
+      <p>
+        <b>Local Video Repurposing & Computer Vision Pipeline</b><br>
+        Offline media processor converting long-form recordings into vertical 9:16 clips. Combines MediaPipe face tracking for dynamic panoramic cropping, Faster-Whisper ASR, and Ollama semantic curation with synchronized SubStation Alpha karaoke subtitles.
       </p>
-      <p align="center">
-        <code>Python</code> • <code>DevSecOps</code> • <code>Análise de Entropia</code> • <code>Git Hooks</code>
+      <p>
+        <code>Python</code> • <code>OpenCV</code> • <code>MediaPipe</code> • <code>Faster-Whisper</code> • <code>FFmpeg</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/nobazzy/orquestra-resource-orchestrator">Orquestra — Resource Manager</a></h3>
+      <p>
+        <b>Autonomous VRAM & Compute Governor for Windows</b><br>
+        Real-time telemetry governor dynamically balancing VRAM, system memory, and GPU load under high concurrency. Uses safety guardrails, anti-oscillation dampening, and automated state rollback.
+      </p>
+      <p>
+        <code>Python</code> • <code>Win32 API</code> • <code>GPU Telemetry</code> • <code>Adaptive Policies</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/nobazzy/secret-exposure-detector">Secret Exposure Detector</a></h3>
+      <p>
+        <b>DevSecOps Static Analysis & Entropy Scanner</b><br>
+        Static inspection and Shannon entropy scanner for CI/CD pipelines and Git hooks. Identifies exposed credentials, API keys, and sensitive tokens with zero-leak enforcement prior to commits.
+      </p>
+      <p>
+        <code>Python</code> • <code>DevSecOps</code> • <code>Entropy Analysis</code> • <code>Git Hooks</code>
       </p>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3 align="center">🤖 <a href="https://github.com/nobazzy/Bot_para_discord">Discord AI Assistant SaaS Engine</a></h3>
+      <h3 align="center"><a href="https://github.com/nobazzy/Atendimento-IA">High-Resilience WhatsApp AI Gateway</a></h3>
       <p align="center">
-        <b>Motor SaaS Multi-Tenant White-Label</b><br>
-        Infraestrutura para orquestração de múltiplos bots no Discord com criptografia AES-256-GCM, proteção de concorrência, controle de estado e módulos de utilidade comercial.
+        <b>Multi-Provider Conversational Infrastructure</b><br>
+        Enterprise messaging backend with multi-LLM routing (OpenAI, Claude, Gemini, Groq, DeepSeek), serialized queue protection, session isolation, and administrative management dashboard.
       </p>
       <p align="center">
-        <code>Node.js</code> • <code>TypeScript</code> • <code>Express</code> • <code>Criptografia AES-256</code> • <code>SQLite/MySQL</code>
+        <code>TypeScript</code> • <code>Node.js</code> • <code>Express</code> • <code>Prisma</code> • <code>Redis</code> • <code>Multi-LLM</code>
       </p>
     </td>
   </tr>
@@ -95,27 +119,22 @@ Minha abordagem de engenharia foca em sistemas autônomos e resilientes onde **a
 
 ---
 
-## 🛠️ Tecnologias & Domínios de Engenharia
+## Technical Competencies
 
-### 🧠 Modelos de Linguagem & Orquestração
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Anthropic_Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=google&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=fastapi&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+- **Languages**: Python, Java, TypeScript, JavaScript, SQL (PostgreSQL, MySQL, SQLite)
+- **Backend & Systems**: FastAPI, Node.js, Express, Asyncio, Concurrency & Multithreading, Redis, Prisma ORM
+- **AI & Media Processing**: Ollama (Local LLMs), Faster-Whisper, PyTorch, MediaPipe, OpenCV, FFmpeg (NVENC), Edge-TTS
+- **Infrastructure & Automation**: Docker, Git, CI/CD, Selenium, Playwright, Windows Win32 API, Linux
 
-### 💻 Backend, Concorrência & Infraestrutura
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+---
+
+## Academic Background
+
+- **B.S. in Computer Science** — Universidade Braz Cubas (São Paulo, Brazil) | 2024 – Present (In Progress)
+- **Core Coursework**: Data Structures & Algorithms, Object-Oriented Programming (Java), Operating Systems, Database Management Systems, Software Engineering
 
 ---
 
 <div align="center">
-  <sub>Engenharia de Sistemas Backend, Orquestração e Inteligência Artificial • <a href="https://github.com/nobazzy">github.com/nobazzy</a></sub>
+  <sub>Alexsandro Vasconcelos • <a href="https://github.com/nobazzy">github.com/nobazzy</a></sub>
 </div>
